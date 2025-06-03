@@ -1,77 +1,71 @@
 :root {
-    --primary: #1e3a5f; /* Swapped */
-    --secondary: #F4E1C1; /* Swapped */
-    --tertiarary: #D6F0F5;
+  --primary: #1e3a5f; /* Swapped */
+  --secondary: #f4e1c1; /* Swapped */
+  --tertiarary: #d6f0f5;
 }
 
 .heading-font {
-    font-family: "Edu SA Hand", cursive;
-
+  font-family: "Edu SA Hand", cursive;
 }
 
-
 #navbar {
-    background-color: var(--tertiarary);
+  background-color: var(--tertiarary);
 }
 
 #navbar .navbar-brand {
-    color: black; /* Makes the branding text white */
+  color: black; /* Makes the branding text white */
 }
 
 #navbar .nav-link {
-    color: black; /* Makes the navigation links white */
-    transition: color 0.3s ease; /* Adds a smooth transition effect */
+  color: black; /* Makes the navigation links white */
+  transition: color 0.3s ease; /* Adds a smooth transition effect */
 }
 
 #navbar .nav-link:hover {
-    color: var(--primary); /* Swapped */
+  color: var(--primary); /* Swapped */
 }
-
 
 #hero {
-    background-color: var(--primary); /* Swapped */
+  background-color: var(--primary); /* Swapped */
 }
 #about {
-    background-color: var(--primary); /* Swapped */
+  background-color: var(--primary); /* Swapped */
 }
 
 #Stress-tips {
-    background-color: var(--primary); /* Swapped */
+  background-color: var(--primary); /* Swapped */
 }
 
 #Stress-tips .card-title {
-    color: var(--primary); /* Swapped */
-    font-size: 1.3rem;
+  color: var(--primary); /* Swapped */
+  font-size: 1.3rem;
 }
 
 #contact .btn-primary {
-    background-color: var(--tertiarary);
-    color: black;
-    border-radius: 20px;
-    padding: 20px;
-    margin: 10px;
+  background-color: var(--tertiarary);
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
 }
 
 #modal {
-    background-color: var(--tertiarary);
-    color: black;
-    border-radius: 20px;
-    padding: 20px;
-    margin: 10px;
+  background-color: var(--tertiarary);
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
 }
 
 body {
-    background-color: var(--secondary); /* Swapped */
-    font-family: "lato", sans-serif;
-    color: white;
+  background-color: var(--secondary); /* Swapped */
+  font-family: "lato", sans-serif;
+  color: white;
 }
 
 .round-image {
-    border-radius: 50%; 
-    width: 400px; 
-    height: 400px; 
-    object-fit: cover;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
 }
-
-
-

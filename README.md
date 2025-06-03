@@ -36,6 +36,7 @@ to select my color pallte, i experiemented with vqarious tools such as coolers b
 i generated 5 images using microsoft designer, each image followed a the theme of a relaxing seashore. i utilised an image for the about section that i softened by styling it to be round, and then created 4 images based on that which related to the individual themes of each tip. for example the card that is titled mindful breathing contains an image of a yoga practioner meditating on a beach.
 
 ## Wireframes
+I initially planned my website on pen and paper before creating balsamiq wireframes to map out the websites appearence on desktop, tablet, and mobile. however they are not included in this readme due to technical difficulties.
 
 ## Features
 ### nav bar

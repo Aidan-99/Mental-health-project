@@ -10,12 +10,15 @@
       integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Edu+SA+Hand:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <!-- nav bar -->
-    <nav class="navbar navbar-expand-sm bg-body-tertiary">
-        <div class="container">
+    <nav id= "nav-background" class="navbar navbar-expand-sm bg-body-tertiary">
+        <div id="navbar" class="container">
           <a class="navbar-brand" href="#">Mental Health Support</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,9 +45,9 @@
     <section class="row">
        
         <div class="col-12 text-center">
-            <h1 class="display-4 my-4"><u>Mental Health Support</u></h1>
+            <h1 class="display-4 my-4 heading-font"><u>Mental Health Support</u></h1>
             
-            <h2 class="display-6 mb-5">Stress relief</h2>
+            <h2 class="display-6 mb-5 heading-font">Stress relief</h2>
             <hr>
             <p>
                 Stress relief is <strong>essential for maintaining good mental health</strong>, 
@@ -61,7 +64,7 @@
             <p class="lead mb-5">The goal of Mental Health Support is to provide <br> tools for individuals to manage their levels of stress!</p>
                 <!-- modal -->
                 <p class="lead mb-5">Let's create something amazing together!</p>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button id="modal" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Sign up for more stress relief tips!
                 </button>
 
@@ -76,7 +79,7 @@
         <div class="row">
            
             <div class="col-12 text-center my-4">
-                <h2 class="display-5"><u>About</u></h2>
+                <h2 class="display-5 heading-font"><u>About</u></h2>
             </div>
            
             <div class="col-12 col-md-6 mb-4">
@@ -112,7 +115,7 @@
         <div class="row">
        
             <div class="col-12 text-center my-4">
-                <h2 class="display-5"><u>Tips and Tricks</u></h2>
+                <h2 class="display-5 heading-font"><u>Tips and Tricks</u></h2>
             </div>
            
             <div class="col-12 col-md-6">
@@ -174,10 +177,11 @@
                 </div>
             </div>
         </div>
+        <!-- footer -->
         <footer id="contact" class="container">
             <div class="row justify-content-center">
                 <div class="col-12 text-center my-4">
-                    <h2 class="display-5">Contact</h2>
+                    <h2 class="display-5 heading-font">Contact Us!</h2>
                     <p class="mt-4">We're here to support you on your journey to a more relaxed and balanced life. If you have any questions, need guidance on stress relief techniques, or just want to connect, we'd love to hear from you!
 <br>
                         Reach out to us anytime via email, phone, or through our contact form. Whether you're looking for personalized recommendations, additional resources, or simply someone to listen, we're happy to help.
